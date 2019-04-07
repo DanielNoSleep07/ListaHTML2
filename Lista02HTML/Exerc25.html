@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<TITLE> Exerc25</TITLE>
+
+<body><p>
+<oltype = "i">
+ <li>Align: Este atributo enumerado indica como a tabela deve ser alinhada considerando o conteúdo do documento. Que pode ter os seguintes valores:<br>
+left, significando que a tabela deve ser exibida à esquerda do documento;<br>
+center, significando que a tabela deve ser exibida centralizada no documento;<br>
+right, significando que a tabela deve ser exibida à direita do documento.<br><br>
+  Exemplos:<br>
+  <table border =1align="right"> tabela a direita(right)
+  <tr><td >exemplo right</td></tr>
+  </table> <br><br>
+  
+  <table border ="1" align="left"> tabela a esquerda(left)
+  <tr><td >exemplo left</td></tr>
+  </table> <br><br>
+  
+  <table border =1 align="center"> tabela centralizada(center)
+  <tr><td >exemplo center</td></tr>
+  </table> </li><br><br>
+
+
+
+ <li>Valign:Indica o alinhamento vertical dentro das células de uma linha. Pode ser superior (VALIGN=top), inferior (VALIGN=bottom), ou centralizado (VALIGN=middle). Por defeito, o alinhamento vertical das células é centralizado. <br>
+  Exemplo:<br>
+  <table border=1> 
+  <tr style="height:100px"> <td valign="top">top</td>    <td valign="middle">middle</td>     <td  valign="bottom"> bottom</td> </tr>
+  </table> </li> <br><br>
+
+
+
+<li>Cellspacing:Define o espaço entre as células, ou seja, a largura das linhas de grade (as bordas que envolvem as células). Especificado em pixels.<br>
+Exemplo(com cellspacing=8):<br>
+ <table border=1 cellspacing=8> 
+  <tr style="height:100px"> <td valign="top">top</td>    <td valign="middle">middle</td>     <td  valign="bottom"> bottom</td> </tr>
+ </table> </li><br><br>
+
+
+
+<li>Cellpadding: Determina, em pixels, o intervalo de espaço  entre o conteúdo e as bordas da célula.<br>
+Exemplo(com cellspacing=8 e cellpadding=6):<br>
+ <table border=1 cellspacing=8 cellpadding=6> 
+  <tr style="height:100px"> <td valign="top">top</td>    <td valign="middle">middle</td>     <td  valign="bottom"> bottom</td> </tr>
+ </table></li><br><br>
+
+
+  <!--Deveria estar funcionando, mas não sei se é 
+  o navegador mas o codigo abaixo esta certo prof -->
+<li>Rownspan:Especifica o número de linhas a serem ocupados por uma célula. Utilizado para expandir uma célula verticalmente.<br>
+Exemplo:<br>
+<table border="1" cellpadding=6>
+<tr>
+   <td rowspan="2">ocupa duas linhas</td> 
+   <td>teste </td>
+   <td>ocupa uma linha</td>
+</tr>
+<tr>
+   <td>teste</td>
+   <td>ocupa uma linha</td>
+</tr>
+</table>
+</li><BR><BR>
+
+
+<li>COLSPAN:Especifica o número de colunas de uma tabela a serem ocupados por uma célula. Utilizado portando para expandir uma célula horizontalmente, tempor defeito o valor 1 em todas as células.<br>
+Exemplo:<br>
+<table border="2" style="height:100px">
+<tr>
+  <td colspan="3">Ocupa 3 colunas</td>
+</tr>
+<tr>
+  <td>coluna 1</td>
+  <td>coluna 2</td>
+  <td>coluna 3</td>
+ </tr>
+</table>
+</li><br><br>
+
+
+<li>Width:Especifica a largura da tabela, que pode ser definida em pixels ou como sendo uma percentagem da largura da janela. Caso não seja especificado o atributo WIDTH, o próprio browser encarrega-se de determinar a largura mais adequada.<br>
+Exemplo(com width=60%, ocupando 60% da tela):<br>
+<table border="2" width="60%" style="height:100px">
+<tr>
+  <td>l1,c1</td>
+  <td>l1,c2</td>
+</tr>
+<tr>
+  <td>l2,c1</td>
+  <td>l2,c2</td>
+</tr>
+</table>
+
+
+
+
+</li>
+
+
+
+
+
+
+
+
+</oltype>
+</p>
+</body>
+</html>
